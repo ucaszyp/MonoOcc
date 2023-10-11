@@ -1,0 +1,7 @@
+# ninja log v5
+3	12962	1690472630726985250	/home/aidrive/zyp/Surround_scene/PanoOcc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/PanoOcc/ops/src/cpu/ms_deform_attn_cpu.o	23aa6fbc2d46a458
+3	22887	1690472640644928363	/home/aidrive/zyp/Surround_scene/PanoOcc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/PanoOcc/ops/src/cuda/ms_deform_attn_cuda.o	4a6df5238c570dfd
+2	36016	1690472653761381813	/home/aidrive/zyp/Surround_scene/PanoOcc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/PanoOcc/ops/src/vision.o	fbb9bb440987141b
+4	4736	1694065220482914518	/home/aidrive/zyp/Surround_scene/fisherocc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/fisherocc/ops/src/cpu/ms_deform_attn_cpu.o	c7d3761109f7cc4d
+5	13751	1694065229451404474	/home/aidrive/zyp/Surround_scene/fisherocc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/fisherocc/ops/src/cuda/ms_deform_attn_cuda.o	dea5a1449696883e
+4	22864	1694065238587414344	/home/aidrive/zyp/Surround_scene/fisherocc/ops/build/temp.linux-x86_64-3.8/home/aidrive/zyp/Surround_scene/fisherocc/ops/src/vision.o	f05870b15f294801

@@ -1,0 +1,1 @@
+./tools/dist_test.sh ./projects/configs/voxformer/voxformer-S.py ./result/voxformer-S/miou12.35_iou44.02_epoch_14.pth 4
