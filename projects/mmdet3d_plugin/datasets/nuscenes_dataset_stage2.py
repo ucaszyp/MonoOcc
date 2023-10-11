@@ -2,7 +2,7 @@
 #
 # This work is made available under the Nvidia Source Code License-NC.
 # To view a copy of this license, visit
-# https://github.com/NVlabs/VoxFormer/blob/main/LICENSE
+# https://github.com/NVlabs/MonoOcc/blob/main/LICENSE
 
 import os
 from os import path as osp

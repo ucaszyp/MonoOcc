@@ -2,7 +2,7 @@
 #
 # This work is made available under the Nvidia Source Code License-NC.
 # To view a copy of this license, visit
-# https://github.com/NVlabs/VoxFormer/blob/main/LICENSE
+# https://github.com/NVlabs/MonoOcc/blob/main/LICENSE
 
 # ---------------------------------------------
 # Copyright (c) OpenMMLab. All rights reserved.
@@ -43,7 +43,7 @@ class MonoOccEncoder(TransformerLayerSequence):
     def __init__(self, *args, pc_range=None, num_points_in_pillar=4, return_intermediate=False, dataset_type='nuscenes',
                  **kwargs):
 
-        super(VoxFormerEncoder, self).__init__(*args, **kwargs)
+        super(MonoOccEncoder, self).__init__(*args, **kwargs)
         self.return_intermediate = return_intermediate
 
         self.num_points_in_pillar = num_points_in_pillar
@@ -230,7 +230,7 @@ class MonoOccEncoder(TransformerLayerSequence):
         return output
 
 @TRANSFORMER_LAYER.register_module()
-class VoxFormerLayer(MyCustomBaseTransformerLayer):
+class MonoOccLayer(MyCustomBaseTransformerLayer):
     """Implements encoder layer in DETR transformer.
     Args:
         attn_cfgs (list[`mmcv.ConfigDict`] | list[dict] | dict )):
@@ -260,7 +260,7 @@ class VoxFormerLayer(MyCustomBaseTransformerLayer):
                  norm_cfg=dict(type='LN'),
                  ffn_num_fcs=2,
                  **kwargs):
-        super(VoxFormerLayer, self).__init__(
+        super(MonoOccLayer, self).__init__(
             attn_cfgs=attn_cfgs,
             feedforward_channels=feedforward_channels,
             ffn_dropout=ffn_dropout,

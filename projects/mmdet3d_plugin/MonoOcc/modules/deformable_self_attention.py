@@ -2,7 +2,7 @@
 #
 # This work is made available under the Nvidia Source Code License-NC.
 # To view a copy of this license, visit
-# https://github.com/NVlabs/VoxFormer/blob/main/LICENSE
+# https://github.com/NVlabs/MonoOcc/blob/main/LICENSE
 
 # ---------------------------------------------
 # Copyright (c) OpenMMLab. All rights reserved.
@@ -30,7 +30,7 @@ ext_module = ext_loader.load_ext(
 
 @ATTENTION.register_module()
 class DeformSelfAttention(BaseModule):
-    """An attention module used in VoxFormer based on Deformable-Detr.
+    """An attention module used in MonoOcc based on Deformable-Detr.
 
     `Deformable DETR: Deformable Transformers for End-to-End Object Detection.
     <https://arxiv.org/pdf/2010.04159.pdf>`_.

@@ -2,7 +2,7 @@
 #
 # This work is made available under the Nvidia Source Code License-NC.
 # To view a copy of this license, visit
-# https://github.com/NVlabs/VoxFormer/blob/main/LICENSE
+# https://github.com/NVlabs/MonoOcc/blob/main/LICENSE
 
 import os
 from os import path as osp
@@ -19,7 +19,7 @@ from numpy.linalg import inv
 from torchvision import transforms
 from mmdet.datasets import DATASETS
 from mmcv.parallel import DataContainer as DC
-from projects.mmdet3d_plugin.voxformer.utils.ssc_metric import SSCMetrics
+from projects.mmdet3d_plugin.MonoOcc.utils.ssc_metric import SSCMetrics
 
 @DATASETS.register_module()
 class SemanticKittiDatasetStage2(Dataset):

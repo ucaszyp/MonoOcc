@@ -2,7 +2,7 @@
 #
 # This work is made available under the Nvidia Source Code License-NC.
 # To view a copy of this license, visit
-# https://github.com/NVlabs/VoxFormer/blob/main/LICENSE
+# https://github.com/NVlabs/MonoOcc/blob/main/LICENSE
 
 # ---------------------------------------------
 # Copyright (c) OpenMMLab. All rights reserved.
@@ -34,7 +34,7 @@ ext_module = ext_loader.load_ext(
 
 @ATTENTION.register_module()
 class DeformCrossAttention(BaseModule):
-    """An attention module used in VoxFormer.
+    """An attention module used in MonoOcc.
     Args:
         embed_dims (int): The embedding dimension of Attention.
             Default: 256.

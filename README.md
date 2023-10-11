@@ -8,7 +8,7 @@
 ![](./pic/teaser.jpg)
 Our method outperforms the 
 state-of-the-art
-VoxFormer and OccFormer
+MonoOcc and OccFormer
 in the SSC mIoU, 
 while also achieving a significant boost
 on both <font color=Gold>small objects</font> (bicycle, motorcycle, traffic-sign)
@@ -43,7 +43,7 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 ## Acknowledgement
 
 Many thanks to these excellent open source projects:
-- [VoxFormer](https://github.com/NVlabs/VoxFormer)
+- [MonoOcc](https://github.com/NVlabs/MonoOcc)
 - [InternImage](https://github.com/OpenGVLab/InternImage)
 - [OccFormer](https://github.com/zhangyp15/OccFormer)
 - [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
