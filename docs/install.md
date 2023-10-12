@@ -57,3 +57,5 @@ git clone https://github.com/ucaszyp/MonoOcc.git
 cd MonoOcc && mkdir ckpts && cd ckpts
 ```
 Download the pretrained [resnet50](https://drive.google.com/file/d/1A4Efx7OQ2KVokM1XTbZ6Lf2Q5P-srsyE/view?usp=share_link).
+
+Pretrained model of InternImage will be released soon
