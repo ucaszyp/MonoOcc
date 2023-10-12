@@ -35,8 +35,8 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 
 | Backbone  | Dataset | mIoU(Val) | mIoU(Test) | Download |
 | :---: | :---: | :---: | :---: | :---: |
-| R50  | SemanticKITTI | 14.01 | 13.80 | [model](https://drive.google.com/file/d/1KOYN3MGHMyCTDZWw4lNNicCdImnKqvlz/view?usp=share_link) |
-| InternImage-XL | SemanticKITTI | 15.53 | 15.63 | [model](https://drive.google.com/file/d/1UBemF77Cfr0d9rcC_Y9Qmjnqp_c4qoeb/view?usp=share_link) |
+| R50  | SemanticKITTI | 14.01 | 13.80 | [model](https://drive.google.com/file/d/1dnRcpQC_TOCL4IsGgG1TUfiAkqGQI4cc/view?usp=sharing) |
+| InternImage-XL | SemanticKITTI | 15.53 | 15.63 | [model](https://drive.google.com/file/d/1dIrYwTI-2YXi8yfRgkZh4fJc-3vu-lA2/view?usp=sharing) |
 
  
 
