@@ -11,8 +11,8 @@ state-of-the-art
 MonoOcc and OccFormer
 in the SSC mIoU, 
 while also achieving a significant boost
-on both <font color=Gold>small objects</font> (bicycle, motorcycle, traffic-sign)
-and <font color=Darksalmon>long-tailed objects</font> (truck, other-vehicle, other-ground).
+on both <font color=Gold>**small objects**</font> (bicycle, motorcycle, traffic-sign)
+and <font color=Darksalmon>**long-tailed objects**</font> (truck, other-vehicle, other-ground).
 
 
 
