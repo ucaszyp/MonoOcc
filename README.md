@@ -43,7 +43,7 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 ## Acknowledgement
 
 Many thanks to these excellent open source projects:
-- [MonoOcc](https://github.com/NVlabs/MonoOcc)
+- [VoxFormer](https://github.com/NVlabs/VoxFormer)
 - [InternImage](https://github.com/OpenGVLab/InternImage)
 - [OccFormer](https://github.com/zhangyp15/OccFormer)
 - [BEVFormer](https://github.com/fundamentalvision/BEVFormer)
