@@ -46,7 +46,8 @@ pip install -v -e .
 ```shell
 pip install timm==0.6.11
 ```
-**g. Install dcn for InternImage.**
+
+**g. Install InternImage.**
 ```shell
 git clone https://github.com/OpenGVLab/InternImage
 cd InternImage/segmentation/ops_dcnv3
