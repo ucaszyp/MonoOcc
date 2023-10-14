@@ -12,7 +12,7 @@ conda activate MonoOcc
 
 **b. Install PyTorch and torchvision following the [official instructions](https://pytorch.org/).**
 ```shell
-pip install torch==1.9.1+cu111 torchvision==0.10.1+cu111 torchaudio==0.9.1 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 -f https://download.pytorch.org/whl/torch_stable.html
 # Recommended torch>=1.9
 
 ```
@@ -24,13 +24,14 @@ conda install -c omgarcia gcc-6 # gcc-6.2
 
 **c. Install mmcv-full.**
 ```shell
-pip install mmcv-full==1.4.0 -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
+pip install -U openmim
+pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
 ```
 
 **d. Install mmdet and mmseg.**
 ```shell
-pip install mmdet==2.14.0
-pip install mmsegmentation==0.14.1
+pip install mmdet==2.18.1
+pip install mmsegmentation==0.27.0
 ```
 
 **e. Install mmdet3d from source code.**
@@ -43,16 +44,24 @@ pip install -v -e .
 
 **f. Install timm.**
 ```shell
-pip install timm
+pip install timm==0.6.11
+```
+**g. Install dcn for InternImage.**
+```shell
+git clone https://github.com/OpenGVLab/InternImage
+cd InternImage/segmentation/ops_dcnv3
+# need PyTorch>=1.10.0
+sh ./make.sh
+# unit test (should see all checking is True)
+python test.py
 ```
 
-
-**g. Clone MonoOcc.**
+**h. Clone MonoOcc.**
 ```
 git clone https://github.com/ucaszyp/MonoOcc.git
 ```
 
-**h. Prepare pretrained resnet50 models.**
+**i. Prepare pretrained resnet50 models.**
 ```shell
 cd MonoOcc && mkdir ckpts && cd ckpts
 ```
