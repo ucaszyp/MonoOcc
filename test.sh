@@ -1,1 +1,1 @@
-./tools/dist_test.sh ./projects/configs/MonoOcc/MonoOcc-S.py ./result/MonoOcc-S/miou12.35_iou44.02_epoch_14.pth 4
+./tools/dist_test.sh ./projects/configs/MonoOcc/MonoOcc-S.py ./ckpts/MonoOcc-S.pth 4
