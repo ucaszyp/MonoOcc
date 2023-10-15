@@ -6,12 +6,8 @@
 
 
 ![](./pic/teaser.jpg)
-Our method outperforms the 
-state-of-the-art
-MonoOcc and OccFormer
-in the SSC mIoU, 
-while also achieving a significant boost
-on both <font color=Gold>**small objects**</font> (bicycle, motorcycle, traffic-sign)
+Our method outperforms the state-of-the-art MonoOcc and OccFormer
+in the SSC mIoU, while also achieving a significant boost on both <font color=Gold>**small objects**</font> (bicycle, motorcycle, traffic-sign)
 and <font color=Darksalmon>**long-tailed objects**</font> (truck, other-vehicle, other-ground).
 
 
@@ -30,6 +26,10 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 - [Installation](docs/install.md) 
 - [Prepare Dataset](docs/prepare_dataset.md)
 - [Run and Eval](docs/getting_started.md)
+
+## Quantitative And Qualitative Results
+![](./pic/quantitative.jpg) 
+![](./pic/qualitative.jpg) 
 
 ## Model Zoo
 
