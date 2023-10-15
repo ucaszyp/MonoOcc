@@ -27,8 +27,9 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 - [Prepare Dataset](docs/prepare_dataset.md)
 - [Run and Eval](docs/getting_started.md)
 
-## Quantitative And Qualitative Results
-![](./pic/quantitative.jpg) 
+## Quantitative Results
+![](./pic/quantitative.jpg)
+## Qualitative Results
 ![](./pic/qualitative.jpg) 
 
 ## Model Zoo
