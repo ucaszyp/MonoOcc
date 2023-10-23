@@ -26,6 +26,7 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 - [Installation](docs/install.md) 
 - [Prepare Dataset](docs/prepare_dataset.md)
 - [Run and Eval](docs/getting_started.md)
+- [nuScenes Dataloader](docs/nusc.md)
 
 ## Quantitative Results
 ![](./pic/quantitative.jpg)
@@ -38,6 +39,7 @@ To address these issues, we propose MonoOcc. In particular, we (i) improve the m
 | :---: | :---: | :---: | :---: | :---: |
 | R50  | SemanticKITTI | 14.01 | 13.80 | [model](https://drive.google.com/file/d/1dnRcpQC_TOCL4IsGgG1TUfiAkqGQI4cc/view?usp=sharing) |
 | InternImage-XL | SemanticKITTI | 15.53 | 15.63 | [model](https://drive.google.com/file/d/1dIrYwTI-2YXi8yfRgkZh4fJc-3vu-lA2/view?usp=sharing) |
+| R101 | nuScenes | 41.86 | -- | model |
 
  
 
